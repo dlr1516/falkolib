@@ -1,0 +1,8 @@
+FALKOLib is released under a GPLv3 license (see COPYING).
+Please note that we provide along FALKOLib a version of mcq, Janez Konc's Maximum Clique Algorithm
+(see http://www.sicmm.org/konc/ for more information). 
+
+For a closed-source version of FALKOLib for commercial purposes, please contact the authors.
+
+If you use FALKOLib in an academic work, please cite the most relevant publication associated by visiting:
+http://rimlab.ce.unipr.it/. 
