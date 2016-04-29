@@ -1,0 +1,5 @@
+Compile with: g++ -O3 mcqd.cpp -o mcqd
+Run with: mcqd test.clq
+mcqd.cpp ... example program that shows how to use class implemented in mcqd.h
+mcqd.h ... a class that contains two variants of the MCQD maximum clique algorithm
+test.clq ... an example clique in DIMACS format
