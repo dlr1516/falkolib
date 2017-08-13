@@ -65,12 +65,13 @@ INSTALL(TARGETS falkolib
 FILE(GLOB headers_Common "${CMAKE_CURRENT_SOURCE_DIR}/include/falkolib/Common/*.h")
 FILE(GLOB headers_Feature "${CMAKE_CURRENT_SOURCE_DIR}/include/falkolib/Feature/*.h")
 FILE(GLOB headers_Matching "${CMAKE_CURRENT_SOURCE_DIR}/include/falkolib/Matching/*.h")
+FILE(GLOB headers_mcqd "${CMAKE_CURRENT_SOURCE_DIR}/EXTERNAL/mcqd/*.h")
 INSTALL(FILES ${headers_Common} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/falkolib/Common)
 INSTALL(FILES ${headers_Feature} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/falkolib/Feature)
 INSTALL(FILES ${headers_Matching} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/falkolib/Matching)
+INSTALL(FILES ${headers_mcqd} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/mcqd)
 
 # Option "make install": copy cmake script
 FILE(GLOB cmake_script "${CMAKE_CURRENT_SOURCE_DIR}/cmake_modules/falkolibConfig.cmake")
 message(STATUS "cmake_script " ${cmake_script})
 INSTALL(FILES ${cmake_script} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/falkolib/)
-
