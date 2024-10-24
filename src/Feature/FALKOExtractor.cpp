@@ -173,6 +173,7 @@ namespace falkolib {
         oriR /= (size - (midIndex + 1));
         Point2d ori = oriL + oriR;
         double theta = atan2(ori(1), ori(0));
+        return theta; 
     }
 
     void FALKOExtractor::NMSKeypoint(const std::vector<int>& scores, const LaserScan& scan, unsigned int ibeg, unsigned int iend, double radius, int minval, std::vector<int>& peaks) {
